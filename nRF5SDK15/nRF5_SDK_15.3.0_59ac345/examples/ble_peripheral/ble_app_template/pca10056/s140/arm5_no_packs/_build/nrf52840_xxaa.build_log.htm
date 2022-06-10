@@ -1,0 +1,98 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.27.1.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Simon Wong, CyPhy Media Limited, LIC=ATTHL-0I77F-DXPU3-ATA84-9LM2Z-R7CWU
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.27.1.0
+Toolchain Path:  E:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         
+Dialog DLL:      
+Target DLL:      Segger\JL2CM3.dll V2.99.35.0
+Dialog DLL:      TCM.DLL V1.36.1.0
+ 
+<h2>Project:</h2>
+E:\sw-admin\Projects\CyPhy-Beacon-Firmware-nRF52-\nRF5SDK15\nRF5_SDK_15.3.0_59ac345\examples\ble_peripheral\ble_app_template\pca10056\s140\arm5_no_packs\ble_app_template_pca10056_s140.uvprojx
+Project File Date:  03/23/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'E:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'nrf52840_xxaa'
+compiling main.c...
+..\..\..\..\..\..\nn_header\nn_header.h(19): warning:  #1295-D: Deprecated declaration multiplication_test - give arg types
+  void multiplication_test();
+..\..\..\..\..\..\nn_header\nn_header.h(21): warning:  #1295-D: Deprecated declaration sigmoid_test - give arg types
+  void sigmoid_test();
+..\..\..\main.c(740): warning:  #177-D: variable "a"  was declared but never referenced
+  		float a = 1.0 + 1.0;
+..\..\..\main.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=47120 RO-data=44184 RW-data=1988 ZI-data=24332  
+FromELF: creating hex file...
+".\_build\nrf52840_xxaa.axf" - 0 Error(s), 3 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM.CMSIS.4.5.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: RTOS Version: 1.0
+   * Component: CORE Version: 4.3.0
+   * Component: DSP Version: 1.4.6
+   * Component: Keil RTX Version: 4.80.0
+
+Package Vendor: NordicSemiconductor
+                http://developer.nordicsemi.com/nRF5_SDK/pieces/nRF_DeviceFamilyPack/NordicSemiconductor.nRF_DeviceFamilyPack.8.24.1.pack
+                NordicSemiconductor.nRF_DeviceFamilyPack.8.24.1
+                Nordic Semiconductor nRF ARM devices Device Family Pack.
+   * Component: Startup Version: 8.24.1
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_nrf52840_xxaa
+  E:\Keil_v5\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include
+  E:\Keil_v5\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\RTOS\RTX\INC
+  E:\Keil_v5\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.24.1\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ::CMSIS:RTOS:1.0 (API)
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+
+   * Component: ARM::CMSIS:DSP:1.4.6
+      Library file:  CMSIS\Lib\ARM\arm_cortexM4lf_math.lib
+      Include file:  CMSIS\Include\arm_math.h
+
+   * Component: ARM::CMSIS:RTOS:Keil RTX:4.80.0
+      Source file:   CMSIS\RTOS\RTX\Templates\RTX_Conf_CM.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MsgQueue.c
+      Include file:  CMSIS\RTOS\RTX\INC\cmsis_os.h
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Semaphore.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Mutex.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Timer.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\main.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MailQueue.c
+      Include file:  CMSIS\RTOS\RTX\UserCodeTemplates\osObjects.h
+      Library file:  CMSIS\RTOS\RTX\LIB\ARM\RTX_CM4.lib
+      Source file:   CMSIS\RTOS\RTX\SRC\ARM\SVC_Table.s
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MemPool.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Thread.c
+
+   * Component: NordicSemiconductor::Device:Startup:8.24.1
+      Source file:   Device\Source\system_nrf52840.c
+      Include file:  Device\Include\system_nrf52840.h
+      Source file:   Device\Source\arm\arm_startup_nrf52840.s
+Build Time Elapsed:  00:00:04
+</pre>
+</body>
+</html>

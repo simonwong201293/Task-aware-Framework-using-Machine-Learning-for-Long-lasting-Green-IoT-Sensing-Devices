@@ -1,0 +1,118 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: £gVision V5.27.1.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Simon Wong, CyPhy Media Limited, LIC=ATTHL-0I77F-DXPU3-ATA84-9LM2Z-R7CWU
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.27.1.0
+Toolchain Path:  E:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         
+Dialog DLL:      
+Target DLL:      Segger\JL2CM3.dll V2.99.35.0
+Dialog DLL:      TCM.DLL V1.36.1.0
+ 
+<h2>Project:</h2>
+E:\sw-admin\Projects\CyPhy-Beacon-Firmware-nRF52-\nRF5SDK15\nRF5_SDK_15.3.0_59ac345\examples\dfu\DFUMaster_UART\pca10040\blank\arm5_no_packs\DFUMaster.uvprojx
+Project File Date:  07/15/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'E:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'nrf52832_xxaa'
+compiling nrf_drv_uart.c...
+"no source": Error:  #5: cannot open source input file "..\..\..\..\..\..\components\drivers_nrf\uart\nrf_drv_uart.c": No such file or directory
+..\..\..\..\..\..\components\drivers_nrf\uart\nrf_drv_uart.c: 0 warnings, 1 error
+compiling nrf_drv_common.c...
+"no source": Error:  #5: cannot open source input file "..\..\..\..\..\..\components\drivers_nrf\common\nrf_drv_common.c": No such file or directory
+..\..\..\..\..\..\components\drivers_nrf\common\nrf_drv_common.c: 0 warnings, 1 error
+compiling boards.c...
+..\..\..\..\..\..\components\boards\boards.h(43): error:  #5: cannot open source input file "nrf_gpio.h": No such file or directory
+  #include "nrf_gpio.h"
+..\..\..\..\..\..\components\boards\boards.c: 0 warnings, 1 error
+compiling app_error_weak.c...
+..\..\..\..\..\..\components\libraries\util\app_error_weak.c(42): error:  #5: cannot open source input file "nrf_log.h": No such file or directory
+  #include "nrf_log.h"
+..\..\..\..\..\..\components\libraries\util\app_error_weak.c: 0 warnings, 1 error
+compiling main.c...
+..\..\..\main.c(60): error:  #5: cannot open source input file "nrf_delay.h": No such file or directory
+  #include "nrf_delay.h"
+..\..\..\main.c: 0 warnings, 1 error
+compiling nrf_balloc.c...
+..\..\..\..\..\..\components\libraries\balloc\nrf_balloc.h(59): error:  #5: cannot open source input file "nrf_log_instance.h": No such file or directory
+  #include "nrf_log_instance.h"
+..\..\..\..\..\..\components\libraries\balloc\nrf_balloc.c: 0 warnings, 1 error
+compiling nrf_memobj.c...
+"no source": Error:  #5: cannot open source input file "..\..\..\..\..\..\components\libraries\experimental_memobj\nrf_memobj.c": No such file or directory
+..\..\..\..\..\..\components\libraries\experimental_memobj\nrf_memobj.c: 0 warnings, 1 error
+compiling app_util_platform.c...
+compiling slip.c...
+compiling app_error.c...
+compiling nrf_assert.c...
+compiling nrf_log_backend_serial.c...
+"no source": Error:  #5: cannot open source input file "..\..\..\..\..\..\components\libraries\experimental_log\src\nrf_log_backend_serial.c": No such file or directory
+..\..\..\..\..\..\components\libraries\experimental_log\src\nrf_log_backend_serial.c: 0 warnings, 1 error
+compiling nrf_log_backend_uart.c...
+"no source": Error:  #5: cannot open source input file "..\..\..\..\..\..\components\libraries\experimental_log\src\nrf_log_backend_uart.c": No such file or directory
+..\..\..\..\..\..\components\libraries\experimental_log\src\nrf_log_backend_uart.c: 0 warnings, 1 error
+compiling nrf_log_backend_rtt.c...
+"no source": Error:  #5: cannot open source input file "..\..\..\..\..\..\components\libraries\experimental_log\src\nrf_log_backend_rtt.c": No such file or directory
+..\..\..\..\..\..\components\libraries\experimental_log\src\nrf_log_backend_rtt.c: 0 warnings, 1 error
+compiling nrf_log_default_backends.c...
+"no source": Error:  #5: cannot open source input file "..\..\..\..\..\..\components\libraries\experimental_log\src\nrf_log_default_backends.c": No such file or directory
+..\..\..\..\..\..\components\libraries\experimental_log\src\nrf_log_default_backends.c: 0 warnings, 1 error
+compiling nrf_fprintf.c...
+compiling nrf_fprintf_format.c...
+compiling nrf_log_frontend.c...
+"no source": Error:  #5: cannot open source input file "..\..\..\..\..\..\components\libraries\experimental_log\src\nrf_log_frontend.c": No such file or directory
+..\..\..\..\..\..\components\libraries\experimental_log\src\nrf_log_frontend.c: 0 warnings, 1 error
+compiling nrf_log_str_formatter.c...
+"no source": Error:  #5: cannot open source input file "..\..\..\..\..\..\components\libraries\experimental_log\src\nrf_log_str_formatter.c": No such file or directory
+..\..\..\..\..\..\components\libraries\experimental_log\src\nrf_log_str_formatter.c: 0 warnings, 1 error
+assembling arm_startup_nrf52.s...
+compiling nrf_strerror.c...
+compiling SEGGER_RTT_printf.c...
+compiling SEGGER_RTT.c...
+compiling SEGGER_RTT_Syscalls_KEIL.c...
+compiling system_nrf52.c...
+".\_build\nrf52832_xxaa.axf" - 13 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM.CMSIS.4.5.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.3.0
+
+Package Vendor: NordicSemiconductor
+                http://developer.nordicsemi.com/nRF5_SDK/pieces/nRF_DeviceFamilyPack/NordicSemiconductor.nRF_DeviceFamilyPack.8.15.0.pack
+                NordicSemiconductor.nRF_DeviceFamilyPack.8.15.0
+                Nordic Semiconductor nRF ARM devices Device Family Pack.
+   * Component: Startup Version: 8.15.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_nrf52832_xxaa
+  E:\Keil_v5\Arm\Packs\ARM\CMSIS\4.5.0\CMSIS\Include
+  E:\Keil_v5\Arm\Packs\NordicSemiconductor\nRF_DeviceFamilyPack\8.15.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+
+   * Component: NordicSemiconductor::Device:Startup:8.15.0
+      Source file:   Device\Source\system_nrf52.c
+      Include file:  Device\Include\system_nrf52.h
+      Source file:   Device\Source\arm\arm_startup_nrf52.s
+Target not created.
+Build Time Elapsed:  00:00:06
+</pre>
+</body>
+</html>

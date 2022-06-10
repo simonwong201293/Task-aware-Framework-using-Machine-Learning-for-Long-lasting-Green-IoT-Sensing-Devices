@@ -1,0 +1,10 @@
+.\_build\nrfx_timer.o: ..\..\..\..\..\..\modules\nrfx\drivers\src\nrfx_timer.c
+.\_build\nrfx_timer.o: ..\..\..\..\..\..\modules\nrfx\nrfx.h
+.\_build\nrfx_timer.o: ..\..\..\..\..\..\integration\nrfx\nrfx_config.h
+.\_build\nrfx_timer.o: ..\config\sdk_config.h
+.\_build\nrfx_timer.o: ..\..\..\..\..\..\modules\nrfx\drivers/nrfx_common.h
+.\_build\nrfx_timer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\_build\nrfx_timer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\_build\nrfx_timer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\_build\nrfx_timer.o: ..\..\..\..\..\..\modules\nrfx\mdk\nrf.h
+.\_build\nrfx_timer.o: ..\..\..\..\..\..\modules\nrfx\mdk\nrf52.h
